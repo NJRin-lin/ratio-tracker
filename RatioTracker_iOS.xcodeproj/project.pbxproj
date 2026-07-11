@@ -3,43 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02CEA5D20DDD4026B2FB5D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C72A9B12F634C7699D89390 /* ContentView.swift */; };
-		3140F2925D1348A99CEAE1D6 /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BC3504249453F9A18C33A /* MenuBarContentView.swift */; };
-		4B8CAFBB62C34397A0D1EBC5 /* RatioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3D1658CAF4451A67035F0 /* RatioService.swift */; };
-		A9820817AC8945D0B9529EBE /* TrackedPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA96D86CA4D742388C3C26BA /* TrackedPair.swift */; };
-		BC63641830027FF200FF850A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC63641730027FF200FF850A /* WidgetKit.framework */; };
-		BC63641A30027FF200FF850A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC63641930027FF200FF850A /* SwiftUI.framework */; };
-		BC63642930027FF300FF850A /* RatioTrackerWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BC63641530027FF200FF850A /* RatioTrackerWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BC63643D3002802E00FF850A /* TrackedPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA96D86CA4D742388C3C26BA /* TrackedPair.swift */; };
-		BC63643E3002803200FF850A /* RatioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3D1658CAF4451A67035F0 /* RatioService.swift */; };
-		D9DDB5FFF30C46EDA39CAB27 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCDAFCCEC3F4B9FAFD55320 /* Persistence.swift */; };
-		E5549BF368944A0AAD4492A1 /* RatioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC14410333471B8100BF41 /* RatioViewModel.swift */; };
-		F7C64BEFC15A43CA8FA7FEF7 /* RatioTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A552BE02224798AFDD485A /* RatioTrackerApp.swift */; };
-		FAEC4B7395C64C56AF2FA3C4 /* RatioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31786B99A230403FBF9803D2 /* RatioCardView.swift */; };
+		032C8D1F2A584E2EB1B8B4C5 /* TrackedPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94F30462D764924ACCF1A8E /* TrackedPair.swift */; };
+		274D9F543F8E4AFB88E044BD /* RatioWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5C84B537947A789E80C7B /* RatioWidgetProvider.swift */; };
+		44865F4DC6D548F1A39F037A /* RatioWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E0D6BDDB34C01ADAB15E4 /* RatioWidgetEntry.swift */; };
+		5917F65859F640D5B07197F4 /* RatioTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE98E32A334E53BA0DC288 /* RatioTrackerApp.swift */; };
+		6EA77970D27949888DF956D7 /* RatioWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D1D2F6CF74C6193171D7D /* RatioWidgetView.swift */; };
+		72B431C7358F4C9E90304620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910039A54976474C9AC2F565 /* ContentView.swift */; };
+		7747325D13ED4CB09CE06DDA /* RatioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98481F32E4148618C7E7037 /* RatioViewModel.swift */; };
+		7849643D72A1488491D12D65 /* RatioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ED13ECB9C4F5DBF58A2C6 /* RatioService.swift */; };
+		7EEB98618E2E4E6391B752C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1E51FE7034A9ABF375775 /* Persistence.swift */; };
+		9FA0B997F726423A89506D48 /* RatioTrackerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2A0DAA42948FF9AA28217 /* RatioTrackerWidget.swift */; };
+		BC63650830029B1900FF850A /* TrackedPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94F30462D764924ACCF1A8E /* TrackedPair.swift */; };
+		BC63650930029B1900FF850A /* RatioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ED13ECB9C4F5DBF58A2C6 /* RatioService.swift */; };
+		BC63650B30029BF700FF850A /* RatioTrackerWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3601F287FFE4E6EB3015C84 /* RatioTrackerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8F7341B8E1A4839959FBC10 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = B23B7EEBBE69488BBD6D4B02 /* Assets.xcassets */; };
+		F637A86B1E0C479F8CE2396C /* RatioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C65C6EA04046CEA0BFA3DF /* RatioCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BC63642730027FF300FF850A /* PBXContainerItemProxy */ = {
+		BC63650C30029BF700FF850A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E783246B347647D1998C67E2 /* Project object */;
+			containerPortal = DD344406A64044B79DDDF51B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC63641430027FF200FF850A;
-			remoteInfo = RatioTrackerWidgetExtension;
+			remoteGlobalIDString = 6412816ED33747CA942AD956;
+			remoteInfo = RatioTrackerWidget;
+		};
+		BC63650F30029BFD00FF850A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD344406A64044B79DDDF51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6412816ED33747CA942AD956;
+			remoteInfo = RatioTrackerWidget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BC63642A30027FF300FF850A /* Embed Foundation Extensions */ = {
+		BC63650E30029BF700FF850A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				BC63642930027FF300FF850A /* RatioTrackerWidgetExtension.appex in Embed Foundation Extensions */,
+				BC63650B30029BF700FF850A /* RatioTrackerWidget.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,184 +56,156 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		31786B99A230403FBF9803D2 /* RatioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioCardView.swift; sourceTree = "<group>"; };
-		37CC14410333471B8100BF41 /* RatioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioViewModel.swift; sourceTree = "<group>"; };
-		670BC3504249453F9A18C33A /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
-		6C72A9B12F634C7699D89390 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		71B3D1658CAF4451A67035F0 /* RatioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioService.swift; sourceTree = "<group>"; };
-		7DFF5A2AC414418E8781140F /* RatioTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatioTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA96D86CA4D742388C3C26BA /* TrackedPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPair.swift; sourceTree = "<group>"; };
-		BC63641530027FF200FF850A /* RatioTrackerWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RatioTrackerWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC63641730027FF200FF850A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		BC63641930027FF200FF850A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		BC63643F3002805100FF850A /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
-		F1A552BE02224798AFDD485A /* RatioTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioTrackerApp.swift; sourceTree = "<group>"; };
-		FFCDAFCCEC3F4B9FAFD55320 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		39B5C84B537947A789E80C7B /* RatioWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioWidgetProvider.swift; sourceTree = "<group>"; };
+		48A1E51FE7034A9ABF375775 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4AC6E49742FC4CB0B07EDE58 /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+		4D4ED13ECB9C4F5DBF58A2C6 /* RatioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioService.swift; sourceTree = "<group>"; };
+		910039A54976474C9AC2F565 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		956E0D6BDDB34C01ADAB15E4 /* RatioWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioWidgetEntry.swift; sourceTree = "<group>"; };
+		A98481F32E4148618C7E7037 /* RatioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioViewModel.swift; sourceTree = "<group>"; };
+		B23B7EEBBE69488BBD6D4B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4C65C6EA04046CEA0BFA3DF /* RatioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioCardView.swift; sourceTree = "<group>"; };
+		B94F30462D764924ACCF1A8E /* TrackedPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedPair.swift; sourceTree = "<group>"; };
+		DA5D1D2F6CF74C6193171D7D /* RatioWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioWidgetView.swift; sourceTree = "<group>"; };
+		DAC9D69EDF7245D4A44845E1 /* RatioTracker iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RatioTracker iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3601F287FFE4E6EB3015C84 /* RatioTrackerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RatioTrackerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCE98E32A334E53BA0DC288 /* RatioTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioTrackerApp.swift; sourceTree = "<group>"; };
+		FFE2A0DAA42948FF9AA28217 /* RatioTrackerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioTrackerWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BC63642D30027FF300FF850A /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BC63641430027FF200FF850A /* RatioTrackerWidgetExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BC63641B30027FF200FF850A /* RatioTrackerWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (BC63642D30027FF300FF850A /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); name = RatioTrackerWidget; path = ../RatioTrackerWidget; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		BC63641230027FF200FF850A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC63641A30027FF200FF850A /* SwiftUI.framework in Frameworks */,
-				BC63641830027FF200FF850A /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		3224019364164F92B24A0287 /* Models */ = {
+		0337BDAFBAC3448CAF04406C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA96D86CA4D742388C3C26BA /* TrackedPair.swift */,
+				B94F30462D764924ACCF1A8E /* TrackedPair.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4E558E19609F4BFCB8354CA3 /* Views */ = {
+		0A37E924EBD04128AAE51B36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31786B99A230403FBF9803D2 /* RatioCardView.swift */,
-				670BC3504249453F9A18C33A /* MenuBarContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		72B12E0A80324B8790232947 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				FFCDAFCCEC3F4B9FAFD55320 /* Persistence.swift */,
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
-		75B187E11C824E7692AB9609 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				71B3D1658CAF4451A67035F0 /* RatioService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		80C5A330952348CDB99FFE81 /* RatioTracker */ = {
-			isa = PBXGroup;
-			children = (
-				BC63643F3002805100FF850A /* Assets 2.xcassets */,
-				6C72A9B12F634C7699D89390 /* ContentView.swift */,
-				F1A552BE02224798AFDD485A /* RatioTrackerApp.swift */,
-				3224019364164F92B24A0287 /* Models */,
-				72B12E0A80324B8790232947 /* Persistence */,
-				75B187E11C824E7692AB9609 /* Services */,
-				F9EED7214B9D41C0B4473389 /* ViewModels */,
-				4E558E19609F4BFCB8354CA3 /* Views */,
-				BC63641B30027FF200FF850A /* RatioTrackerWidget */,
-				BC63641630027FF200FF850A /* Frameworks */,
-				E26C480FA3E541C5B9E8AF69 /* Products */,
-			);
-			path = RatioTracker;
-			sourceTree = "<group>";
-		};
-		BC63641630027FF200FF850A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BC63641730027FF200FF850A /* WidgetKit.framework */,
-				BC63641930027FF200FF850A /* SwiftUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E26C480FA3E541C5B9E8AF69 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7DFF5A2AC414418E8781140F /* RatioTracker.app */,
-				BC63641530027FF200FF850A /* RatioTrackerWidgetExtension.appex */,
+				DAC9D69EDF7245D4A44845E1 /* RatioTracker iOS.app */,
+				F3601F287FFE4E6EB3015C84 /* RatioTrackerWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9EED7214B9D41C0B4473389 /* ViewModels */ = {
+		295BD0140CCD4B18906A320A /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				37CC14410333471B8100BF41 /* RatioViewModel.swift */,
+				956E0D6BDDB34C01ADAB15E4 /* RatioWidgetEntry.swift */,
+				FFE2A0DAA42948FF9AA28217 /* RatioTrackerWidget.swift */,
+				39B5C84B537947A789E80C7B /* RatioWidgetProvider.swift */,
+				DA5D1D2F6CF74C6193171D7D /* RatioWidgetView.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		7410FFA07C5B4E4BA75C41AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A98481F32E4148618C7E7037 /* RatioViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74979AB4D5DD47CFA7D13C71 /* RatioTracker */ = {
+			isa = PBXGroup;
+			children = (
+				910039A54976474C9AC2F565 /* ContentView.swift */,
+				FDCE98E32A334E53BA0DC288 /* RatioTrackerApp.swift */,
+				B23B7EEBBE69488BBD6D4B02 /* Assets.xcassets */,
+				0337BDAFBAC3448CAF04406C /* Models */,
+				F0C059CFC0AE4AE58B1832D1 /* Persistence */,
+				C731D65B1C2F45B29681A68A /* Services */,
+				7410FFA07C5B4E4BA75C41AA /* ViewModels */,
+				D7C9CBAC5C17486CA7039961 /* Views */,
+				295BD0140CCD4B18906A320A /* Widget */,
+				BC63650A30029BF700FF850A /* Frameworks */,
+				0A37E924EBD04128AAE51B36 /* Products */,
+			);
+			path = RatioTracker;
+			sourceTree = "<group>";
+		};
+		BC63650A30029BF700FF850A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C731D65B1C2F45B29681A68A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D4ED13ECB9C4F5DBF58A2C6 /* RatioService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D7C9CBAC5C17486CA7039961 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4C65C6EA04046CEA0BFA3DF /* RatioCardView.swift */,
+				4AC6E49742FC4CB0B07EDE58 /* MenuBarContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0C059CFC0AE4AE58B1832D1 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				48A1E51FE7034A9ABF375775 /* Persistence.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC63641430027FF200FF850A /* RatioTrackerWidgetExtension */ = {
+		6412816ED33747CA942AD956 /* RatioTrackerWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC63642E30027FF300FF850A /* Build configuration list for PBXNativeTarget "RatioTrackerWidgetExtension" */;
+			buildConfigurationList = 9F9E1889A81745C1BDC105D1 /* Build configuration list for PBXNativeTarget "RatioTrackerWidget" */;
 			buildPhases = (
-				BC63641130027FF200FF850A /* Sources */,
-				BC63641230027FF200FF850A /* Frameworks */,
-				BC63641330027FF200FF850A /* Resources */,
+				303B763855F74E3C8335078D /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BC63641B30027FF200FF850A /* RatioTrackerWidget */,
-			);
-			name = RatioTrackerWidgetExtension;
-			packageProductDependencies = (
-			);
-			productName = RatioTrackerWidgetExtension;
-			productReference = BC63641530027FF200FF850A /* RatioTrackerWidgetExtension.appex */;
+			name = RatioTrackerWidget;
+			productName = RatioTrackerWidget;
+			productReference = F3601F287FFE4E6EB3015C84 /* RatioTrackerWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		BF3653521E6C4B5385830100 /* RatioTracker */ = {
+		793363B89F2049BEB0773797 /* RatioTracker iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 521C9E62D0214CEF834AB1B2 /* Build configuration list for PBXNativeTarget "RatioTracker" */;
+			buildConfigurationList = CFE9715C1F9F4B1EA96AB405 /* Build configuration list for PBXNativeTarget "RatioTracker iOS" */;
 			buildPhases = (
-				2D98ACA5A29440428CE5410E /* Sources */,
-				BC63642A30027FF300FF850A /* Embed Foundation Extensions */,
+				2D2250E4E5164D4BBC0DF9CF /* Sources */,
+				BC63650E30029BF700FF850A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC63642830027FF300FF850A /* PBXTargetDependency */,
+				BC63650D30029BF700FF850A /* PBXTargetDependency */,
+				BC63651030029BFD00FF850A /* PBXTargetDependency */,
 			);
-			name = RatioTracker;
-			productName = RatioTracker;
-			productReference = 7DFF5A2AC414418E8781140F /* RatioTracker.app */;
+			name = "RatioTracker iOS";
+			productName = "RatioTracker iOS";
+			productReference = DAC9D69EDF7245D4A44845E1 /* RatioTracker iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E783246B347647D1998C67E2 /* Project object */ = {
+		DD344406A64044B79DDDF51B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 1620;
-				TargetAttributes = {
-					BC63641430027FF200FF850A = {
-						CreatedOnToolsVersion = 26.6;
-						LastSwiftMigration = 2660;
-					};
-				};
 			};
-			buildConfigurationList = 1A9D9294517F4180A440CC86 /* Build configuration list for PBXProject "RatioTracker_iOS" */;
+			buildConfigurationList = B9B6F3CF8A164B06A19DB5B4 /* Build configuration list for PBXProject "RatioTracker_iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,64 +213,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 80C5A330952348CDB99FFE81 /* RatioTracker */;
-			productRefGroup = E26C480FA3E541C5B9E8AF69 /* Products */;
+			mainGroup = 74979AB4D5DD47CFA7D13C71 /* RatioTracker */;
+			productRefGroup = 0A37E924EBD04128AAE51B36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF3653521E6C4B5385830100 /* RatioTracker */,
-				BC63641430027FF200FF850A /* RatioTrackerWidgetExtension */,
+				793363B89F2049BEB0773797 /* RatioTracker iOS */,
+				6412816ED33747CA942AD956 /* RatioTrackerWidget */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		BC63641330027FF200FF850A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2D98ACA5A29440428CE5410E /* Sources */ = {
+		2D2250E4E5164D4BBC0DF9CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02CEA5D20DDD4026B2FB5D03 /* ContentView.swift in Sources */,
-				F7C64BEFC15A43CA8FA7FEF7 /* RatioTrackerApp.swift in Sources */,
-				E5549BF368944A0AAD4492A1 /* RatioViewModel.swift in Sources */,
-				A9820817AC8945D0B9529EBE /* TrackedPair.swift in Sources */,
-				D9DDB5FFF30C46EDA39CAB27 /* Persistence.swift in Sources */,
-				FAEC4B7395C64C56AF2FA3C4 /* RatioCardView.swift in Sources */,
-				3140F2925D1348A99CEAE1D6 /* MenuBarContentView.swift in Sources */,
-				4B8CAFBB62C34397A0D1EBC5 /* RatioService.swift in Sources */,
+				72B431C7358F4C9E90304620 /* ContentView.swift in Sources */,
+				5917F65859F640D5B07197F4 /* RatioTrackerApp.swift in Sources */,
+				7747325D13ED4CB09CE06DDA /* RatioViewModel.swift in Sources */,
+				032C8D1F2A584E2EB1B8B4C5 /* TrackedPair.swift in Sources */,
+				7EEB98618E2E4E6391B752C4 /* Persistence.swift in Sources */,
+				F637A86B1E0C479F8CE2396C /* RatioCardView.swift in Sources */,
+				7849643D72A1488491D12D65 /* RatioService.swift in Sources */,
+				E8F7341B8E1A4839959FBC10 /* Assets.xcassets in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC63641130027FF200FF850A /* Sources */ = {
+		303B763855F74E3C8335078D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC63643E3002803200FF850A /* RatioService.swift in Sources */,
-				BC63643D3002802E00FF850A /* TrackedPair.swift in Sources */,
+				44865F4DC6D548F1A39F037A /* RatioWidgetEntry.swift in Sources */,
+				9FA0B997F726423A89506D48 /* RatioTrackerWidget.swift in Sources */,
+				274D9F543F8E4AFB88E044BD /* RatioWidgetProvider.swift in Sources */,
+				6EA77970D27949888DF956D7 /* RatioWidgetView.swift in Sources */,
+				BC63650830029B1900FF850A /* TrackedPair.swift in Sources */,
+				BC63650930029B1900FF850A /* RatioService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC63642830027FF300FF850A /* PBXTargetDependency */ = {
+		BC63650D30029BF700FF850A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC63641430027FF200FF850A /* RatioTrackerWidgetExtension */;
-			targetProxy = BC63642730027FF300FF850A /* PBXContainerItemProxy */;
+			target = 6412816ED33747CA942AD956 /* RatioTrackerWidget */;
+			targetProxy = BC63650C30029BF700FF850A /* PBXContainerItemProxy */;
+		};
+		BC63651030029BFD00FF850A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6412816ED33747CA942AD956 /* RatioTrackerWidget */;
+			targetProxy = BC63650F30029BFD00FF850A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FA4EFEF93044BE0AFCB445A /* Release */ = {
+		1FC974DF01DB4E83977BFF68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,42 +280,10 @@
 			};
 			name = Release;
 		};
-		8933DF15B5B84BD8B14587CB /* Debug */ = {
+		6350AD734E134B629FECD979 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7S8GWPH2YM;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RatioTracker/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		96B7EE766DA24B5982EF5A77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		97257E44C5454FE7BA026899 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7S8GWPH2YM;
@@ -355,200 +303,115 @@
 			};
 			name = Release;
 		};
-		BC63642B30027FF300FF850A /* Debug */ = {
+		AC9A4E55FF1A458BA7674321 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7S8GWPH2YM;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RatioTrackerWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RatioTrackerWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RatioTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios.RatioTrackerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		BC63642C30027FF300FF850A /* Release */ = {
+		BAB9E664215246D689D56969 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7S8GWPH2YM;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RatioTrackerWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RatioTrackerWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RatioTracker/WidgetInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios.RatioTrackerWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		D196805F7DA54B059DF5838E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FD2F82A856614F228C57A2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S8GWPH2YM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RatioTracker/WidgetInfo.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ratiotracker.app.ios.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9D9294517F4180A440CC86 /* Build configuration list for PBXProject "RatioTracker_iOS" */ = {
+		9F9E1889A81745C1BDC105D1 /* Build configuration list for PBXNativeTarget "RatioTrackerWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96B7EE766DA24B5982EF5A77 /* Debug */,
-				0FA4EFEF93044BE0AFCB445A /* Release */,
+				FD2F82A856614F228C57A2FF /* Debug */,
+				BAB9E664215246D689D56969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		521C9E62D0214CEF834AB1B2 /* Build configuration list for PBXNativeTarget "RatioTracker" */ = {
+		B9B6F3CF8A164B06A19DB5B4 /* Build configuration list for PBXProject "RatioTracker_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8933DF15B5B84BD8B14587CB /* Debug */,
-				97257E44C5454FE7BA026899 /* Release */,
+				D196805F7DA54B059DF5838E /* Debug */,
+				1FC974DF01DB4E83977BFF68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC63642E30027FF300FF850A /* Build configuration list for PBXNativeTarget "RatioTrackerWidgetExtension" */ = {
+		CFE9715C1F9F4B1EA96AB405 /* Build configuration list for PBXNativeTarget "RatioTracker iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC63642B30027FF300FF850A /* Debug */,
-				BC63642C30027FF300FF850A /* Release */,
+				AC9A4E55FF1A458BA7674321 /* Debug */,
+				6350AD734E134B629FECD979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E783246B347647D1998C67E2 /* Project object */;
+	rootObject = DD344406A64044B79DDDF51B /* Project object */;
 }
